@@ -1,0 +1,59 @@
+.places{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #4b4b4b;
+}
+
+.places_subheaders{
+    font-size: 12px;
+    margin-left: 29%;
+}
+
+.places_subheader{
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+.containerr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.containerr .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerr .box .place_slika{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.containerr .box .place_slika img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 769px){
+    .containerr .box{
+        flex-direction: column;
+    }
+
+    .containerr .box .place_slika{
+    width: 100%;
+    }
+}

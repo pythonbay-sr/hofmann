@@ -1,0 +1,52 @@
+/*Responsive*/
+
+@media(max-width: 1024px){
+  .naslov{
+    width: 100%;
+    top: 40%;
+    font-size: 20px;
+  }
+
+  .kolona2{
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .our_team_text{
+      margin-left: 17%;
+  }
+
+  .kolona{
+    width: 100%;
+    margin-left: 17.7%;
+  }
+
+  .plan_text{
+    margin-left: 21%;
+  }
+
+  .purchase_button{
+    margin-left: 12%;
+  }
+
+  .noir_project{
+    margin-left: 35%;
+  }
+
+  .noir_project_text{
+    margin-left: 22%;
+  }
+}
+
+
+
+
+@media(max-width: 1400px) and (min-width: 1024px){
+  .purchase_button{
+    margin-left: -12%;
+  }
+
+  .cena_plana{
+    margin-left: 25%;
+  }
+}

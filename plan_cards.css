@@ -1,0 +1,55 @@
+.kartica{
+    border-radius: 50px;
+    width : 600px;
+    margin-bottom: 50px;
+    max-width:100%;
+    height: auto;
+}
+
+.kartica:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+
+.glavni_tekst {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding-top : 30px;
+    padding-bottom: 5px;
+    margin-left: 44%;
+}
+
+.cena_plana {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+    padding-top : 30px;
+    padding-bottom: 5px;
+    margin-left: 38%;
+}
+
+.year {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-left: 44%;
+}
+
+.description{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-left: 25%;
+}
+
+.purchase_button{
+    margin-left: 7%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    padding: 20 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+}
