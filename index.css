@@ -22,7 +22,7 @@ ul {
     padding: 40px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
-    color: #ebcb80;
+    color: #41a2ff;
     float: left;
 }
 
@@ -80,26 +80,10 @@ li a:hover {
 .naslov{
     position: absolute;
     margin-top: 20%;
-    margin-left: 14%;
+    margin-left: 40%;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 35px;
-    color: #282828;
-}
-
-.podnaslov{
-    padding-top: 25px;
-    position: absolute;
-    margin-top: 27%;
-    margin-left: 39%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 12px;
-    color: #282828;
-}
-
-.forma{
-    position: absolute;
-    margin-top: 32%;
-    margin-left: 37%;
+    font-size: 70px;
+    color: #ffffff;
 }
 
 .fname{
@@ -135,7 +119,7 @@ li a:hover {
     margin-right: auto;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
-    color: #282828;
+    color: #41a2ff;
     padding: 50px;
 }
 
